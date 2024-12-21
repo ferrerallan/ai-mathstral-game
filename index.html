@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Hunter</title>
+    <style>
+      canvas {
+        display: block;
+        margin: 0 auto;
+        background: #000;
+        border: 2px solid #fff;
+      }
+      .controls {
+        text-align: center;
+        margin-top: 20px;
+      }
+      input {
+        font-size: 16px;
+        width: 50px;
+        text-align: center;
+      }
+      button {
+        font-size: 16px;
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <div class="controls">
+      <input id="moveInput" type="text" maxlength="1" placeholder="U/D/L/R" />
+      <button id="moveButton">Move</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
