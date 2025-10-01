@@ -147,7 +147,7 @@ async function autoPlay() {
     const distance = calculateDistance(player, star);
 
     getRandomDirection({ currentPosition, starPosition, distance });
-    await new Promise((resolve) => setTimeout(resolve, 2500));
+    await new Promise((resolve) => setTimeout(resolve, 1000));
   }
 }
 
